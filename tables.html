@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Table</title>
+    
+    <!-- Style here -->
+    <style>
+
+        table
+        {
+            border-collapse: collapse;
+        }
+        tr,
+        th,
+        td {
+            padding: 20px;
+            border: 4px solid #000000;
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <!-- Todo give inline css to this caption -->
+        <caption style= "color:darkmagenta; font-size: 60px"> This is a basic table</caption> 
+        <!-- For table rows -->
+        <tr>
+            <th colspan="2"> Number 1 </th>
+            <th> Number 2 </th>
+            <th> Number 3 </th>
+        </tr>
+
+        <tr>
+            <td rowspan="2"> first </td>
+            <td> Second </td>
+            <td> Third </td>
+            <td> Fourth </td>
+        </tr>
+
+        <tr>
+            <td> Another one </td>
+            <td> The best one </td>
+            <td> The worst one</td>
+        </tr>
+    </table>
+</body>
+
+</html>

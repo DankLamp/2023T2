@@ -1,0 +1,26 @@
+body {
+    background-color: bisque;
+}
+
+.formstyle{
+    background-color:lightgray;
+    max-width: 70%;
+    text-align: center;
+
+    margin:auto;
+    padding: 2dvh;
+}
+
+.submitbuttonstyle{
+    background-color: darkseagreen;
+    border: 4px;
+    padding: 16px 32px;
+    margin: 10px 2px;
+    text-size-adjust: 400px ;
+}
+
+h1{
+    text-align: center;
+    background-color: paleturquoise;
+    color:black;    
+}
